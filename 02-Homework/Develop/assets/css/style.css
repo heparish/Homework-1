@@ -1,6 +1,7 @@
 :root {
     --box-color: #0072bb;
     --font-color: #ffffff;
+    --font-fam: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -34,7 +35,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fam);
     font-size: 20px;
 }
 
@@ -56,7 +57,7 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.main-page {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -88,7 +89,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fam);
     background-color: #2589bd;
 }
 
@@ -144,7 +145,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fam);
     background-color:var(--box-color);
     color:var(--font-color);
 }
@@ -153,7 +154,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fam);
     background-color: var(--box-color);
     color: var(--font-color);
 }
@@ -162,7 +163,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-fam);
     background-color: var(--box-color);
     color: var(--font-color);
 }
